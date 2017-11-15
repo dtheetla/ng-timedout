@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { TimedoutModule } from 'app/timedout';
+import { NgTimedoutModule } from 'app/ng-timedout';
 
 @NgModule({
   declarations: [
@@ -10,7 +10,7 @@ import { TimedoutModule } from 'app/timedout';
   ],
   imports: [
     BrowserModule,
-    TimedoutModule.forRoot()
+    NgTimedoutModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
