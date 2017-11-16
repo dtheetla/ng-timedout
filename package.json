@@ -1,6 +1,6 @@
 {
-  "name": "ng2-timedout",
-  "version": "0.0.0",
+  "name": "ng-timedout",
+  "version": "2.0.0",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
